@@ -10,8 +10,8 @@ bool done;
 do{
 int i = rand() % 100;
 while (true){
-cout << rand() << endl;
 cout << "I made a number, try to guess";
+system("color 01");
 int j;
 cin >> j;
 if (i > j)
