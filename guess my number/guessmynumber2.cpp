@@ -11,7 +11,7 @@ do{
 int i = rand() % 100;
 while (true){
 cout << "I made a number, try to guess";
-system("color 01");
+system("color 03");
 int j;
 cin >> j;
 if (i > j)
